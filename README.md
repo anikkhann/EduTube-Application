@@ -25,6 +25,25 @@ EduTube application has various educational videos and information about all tho
 - **Server:** JSON Server
 
 
+## Run Live Client Site Using Only Clone Server
+ - Clone individual JSON Server 
+ ```bash
+    git@github.com:anikkhann/EduTube-Server.git
+```
+```bash
+  cd EduTube-Server
+```
+```bash
+  npm install
+```
+```bash
+  npm start
+```
+
+#### After providing npm start, the JSON Server will be launched on your local PC http://localhost:9001 . 
+#### Now Click below live link of Client site.....
+#### Live Link of Client Site :- https://edu-tube-application.vercel.app/
+
 ## Run Locally 
 
 ### Backend Server
