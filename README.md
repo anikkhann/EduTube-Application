@@ -45,7 +45,9 @@ Install dependencies
 ```bash
   npm install
 ```
-
+```bash
+  npm start
+```
 - Keep running your JSON Server while running the Client Server
 
 ### Client Server
@@ -67,3 +69,5 @@ Start the client server
   npm start
 ```
 #### After providing npm start, the project will be launched on your local PC http://localhost:3000/ 
+
+
