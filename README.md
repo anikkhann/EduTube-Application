@@ -1,46 +1,69 @@
-# Getting Started with Create React App and Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# EduTube Application
 
-## Available Scripts
+EduTube application has various educational videos and information about all those videos on its home page. At the time users could learn skills by sorting and viewing them and could create, update,and edit videos with information.
+## Features
 
-In the project directory, you can run:
+- Add New Video Page
+- Display Added Video to Home Page
+- Searching & Category sorting on Home page to see the Videos
+- Dynamic Single Page Video along with it's Related Videos
+- Update Dynamic Single Video
+- Delete Dynamic Single Video
 
-### `npm start`
+## Project Description
+- When the user lands on the EduTube website, the user will be able to see all videos with some Tag Categories and a search field for sorting videos.
+- If users want to see the videos according to their search or tag category selection, they will be able to see the filtered videos. Even if the user searches and selects the tag category at a time, the result will be shown according to seacrh and tag selection.
+- Users can add any new video of their choice with information on this EduTube website. They will be able to see added video to Home Page.
+- By selecting a specific video, the user will see the selected video dynamically on a single page along with the related videos of the selected video.
+- By clicking the selected video or related video, the user gets two options, one is EDIT and the other is DELETE. When the user clicks on the update button, an edit page will appear with all the previous information of the selected video, from there the user can update the video with the new information. If the user wants to delete the selected video, by clicking on the delete button the user will be able to delete the selected video.
+- After video adding, deleting, and editing a new video, the user will see all his updates on the homepage
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Client:** React JS,TailwindCSS, Redux Js Toolkit, React Redux, React Toastify, React Router.
+- **State Management:** RTK Query.
+- **Server:** JSON Server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Run Locally 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend Server
+Clone the project
 
-### `npm run build`
+```bash
+  git clone git@github.com:anikkhann/EduTube-Application.git
+```
+Go to the server project directory
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd EduTube-Application
+  cd server
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+- Keep running your JSON Server while running the Client Server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Client Server
+After cloning the website go to the project directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  cd EduTube-Application
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm install
+```
 
-## Learn More
+Start the client server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm start
+```
+#### After providing npm start, the project will be launched on your local PC http://localhost:3000/ 
